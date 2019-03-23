@@ -12,4 +12,4 @@ npm install
 npm run serve
 ```
 ### Unexpected behavior
-Run project and try to navigate to `/test` route I will get an error in console that `home` vatiable is not defined. Looks like template string does not go through module resolving or something with such configuration.
+Run project and try to navigate to `/test` route I will get an error in console that `home` vatiable is not defined. Looks like template string does not go through module resolving or something with such configuration. Check `router.js` file to see details.
