@@ -11,13 +11,5 @@ npm install
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
+### Unexpected behavior
+Run project and try to navigate to `/test` route I will get an error in console that `home` vatiable is not defined. Looks like template string does not go through module resolving or something with such configuration.
